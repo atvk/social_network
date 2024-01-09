@@ -1,0 +1,8 @@
+.footer {
+    display: grid;
+    grid-area: f;
+    background-color: rgb(42, 54, 39);
+    height: 200px;
+
+}
+

@@ -1,0 +1,9 @@
+.Nav {
+    display:grid;
+    grid-area: n;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(84, 120, 78);
+    color: #fff;
+
+}

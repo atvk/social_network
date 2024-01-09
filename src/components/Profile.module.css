@@ -1,0 +1,23 @@
+.Content{
+    display: grid;
+    grid-area: c;
+    gap: 25px;
+    grid-template-columns: repeat(1, min-content);
+    grid-template-rows: repeat(5, min-content) ;
+    background-color: rgb(42, 49, 40);
+    justify-content: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+    .Content img{
+        
+        object-fit: cover;
+        object-position: center; 
+
+    }
+    .Item {
+        color:black
+
+    }
+ 
