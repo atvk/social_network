@@ -1,14 +1,9 @@
-import React from "react";
-import s from'./Header.module.css'
+import { GithubLogo } from "@phosphor-icons/react"
 
-
-const Header = () => {
-    return (
-  
-    <header className={s.header}>
-        <img src='https://upload.wikimedia.org/wikipedia/commons/5/52/Free_logo.svg'></img>
+export default function Header() {
+  return (
+    <header className="bg-gray-400 w-full h-100 p-5">
+      <GithubLogo  className="size-16 text-white" />
     </header>
-    )
+  )
 }
-
-export default Header

@@ -1,27 +1,9 @@
-import React from "react"
-import s from './Profile.module.css'
+import { User } from "@phosphor-icons/react"
 
-
-const Profile = () => {
+export default function Profile() {
   return (
-    <div className={s.Content}>
-
-      <div>
-        <img/>
-      </div>
-      <div>
-        <img />
-        <div className={s.Content}>
-          Discription
-        </div>
-      </div>
-      <div className={s.Item}>My Post</div>
-      <div className={s.Item}>New Post
-        <div className={s.Item}>Post 1</div>
-        <div className={s.Item}>Post </div>
-      </div>
-    </div>
+    <header className="bg-gray-600 w-full h-100 p-5">
+      <User  className="size-16 text-white" />
+    </header>
   )
 }
-
-export default Profile

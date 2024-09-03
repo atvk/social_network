@@ -1,14 +1,9 @@
-import React from "react";
-import s from'./Footer.module.css'
+import { Footprints } from "@phosphor-icons/react"
 
-
-const Footer = () => {
-    return (
-  
-    <footer className={s.footer}>
-       
+export default function Footer() {
+  return (
+    <footer className="bg-gray-700 w-full h-100 p-5">
+      <Footprints className="size-16 text-white" />
     </footer>
-    )
+  )
 }
-
-export default Footer
